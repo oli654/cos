@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "skyclient",
+  "version": "${version}",
+  "name": "Sky Client",
+  "description": "Client-side PvP suite: HUD modules, sky lyrics, music player and a clean menu.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.skyclient.SkyClientMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
